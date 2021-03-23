@@ -10,7 +10,7 @@ namespace CustomAndPlatformSpec
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new RoundedImagePage();
         }
 
         protected override void OnStart()
