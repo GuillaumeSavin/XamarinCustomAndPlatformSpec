@@ -19,7 +19,12 @@
                 <Image Source="image.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
                 -->
 
-                <Image x:Name="image" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Image x:Name="image" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Image.GestureRecognizers>
+                        <PinchGestureRecognizer PinchUpdated="OnPinchUpdated"/>
+                        <TapGestureRecognizer Tapped="OnDoubleTap" NumberOfTapsRequired="2"/>
+                    </Image.GestureRecognizers>                 
+                </Image>
             </Frame>
         </StackLayout>
     </ContentView.Content>

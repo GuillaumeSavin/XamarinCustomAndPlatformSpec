@@ -5,6 +5,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="CustomAndPlatformSpec.RoundedImagePage">
     <ContentPage.Content>
-        <local:RoundedImage Image="image.jpg" Size="200"/>
+        <local:RoundedImage Image="image.jpg" Size="300"/>
     </ContentPage.Content>
 </ContentPage>
